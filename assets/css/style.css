@@ -327,7 +327,7 @@ p {
   line-height: 1;
   display: inline-block;
   transition: 0.5s;
-  /* transform: translateX(150%); */
+  transform: translateX(150%);
   z-index: 1;
 }
 .button a:hover {
@@ -344,18 +344,6 @@ p {
   width: 100%;
   height: 100%;
 }
-/* .overlay_1 {
-  width: 88px;
-  height: 87px;
-  position: absolute;
-  right: -5%;
-  top: -20%;
-  z-index: 1;
-}
-.overlay_1 img {
-  width: 100%;
-  height: 100%;
-} */
 .overlay_2 {
   position: absolute;
   width: 304px;
@@ -432,6 +420,8 @@ p {
   margin: auto;
   color: #ffffff;
 }
+
+
 /*Bannter Area Css*/
 .Batter_area {
   background: url("../images/banner/banner.png") no-repeat scroll 0 0 / 100%
@@ -593,7 +583,6 @@ p {
 }
 .dev_c_area_small .dev_ov_content {
   height: 100%;
-  /* background: #1F1F26; */
   padding: 31px 20px;
 }
 /*News letter Area Css*/
@@ -1282,9 +1271,6 @@ a:hover {
   margin-top: 3rem;
 }
 
-.tabContent {
-  display: none;
-}
 #London {
   display: block;
 }
@@ -1393,9 +1379,9 @@ div#wave .dot:nth-child(12) {
   align-items: center;
 }
 
-.align-center h1 {
+/* .align-center h1 {
   font-size: 48px;
-}
+} */
 
 .user_con {
   min-height: 45vh;
@@ -1407,6 +1393,7 @@ div#wave .dot:nth-child(12) {
 
 .pt.talent-acquisition {
   padding-top: 0;
+  margin-top: 10rem;
 }
 
 .user_profile_area.pt.pb .user_con {
@@ -1432,7 +1419,7 @@ div#wave .dot:nth-child(12) {
 
 .image-container img {
   position: absolute;
-  top: -9rem;
+  /* top: -9rem; */
   left: -15rem;
   width: 45rem;
 }
@@ -1579,8 +1566,8 @@ div#wave .dot:nth-child(12) {
     padding-top: 220px;
   }
   .image-container img {
-    width: 30rem;
-    left: -5rem;
+    width: 27rem;
+    left: 0rem;
     margin-right: 2rem;
   }
   .image-right-container img {
@@ -1590,12 +1577,6 @@ div#wave .dot:nth-child(12) {
     left: 0rem;
     top: -10rem;
   }
-  .banner_content .button a {
-    transform: translateX(-90%) scale(0.8);
-  }
-  /* .button a {
-    transform: translateX(1%) scale(0.8);
-  } */
   .hero_section .bg-video {
     top: 48%;
   }
@@ -1605,8 +1586,11 @@ div#wave .dot:nth-child(12) {
   .hero_section .banner_content {
     left: 27%;
   }
+  .banner_content .button a {
+    transform: translateX(-90%) scale(0.8);
+  }
   .image-right-container img {
-    top: 35%;
+    top: 14%;
   }
   .video_section.sp .container {
     margin-top: 10rem;
@@ -1620,8 +1604,7 @@ div#wave .dot:nth-child(12) {
   .banner_content .button a {
     transform: translateX(-70%) scale(0.8);
   }
-  .padding_right_p,
-  .padding_left_p {
+  .userLearnDigitalyCon{
     padding: 0;
   }
 }
