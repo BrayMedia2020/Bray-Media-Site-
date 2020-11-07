@@ -1582,8 +1582,8 @@ div#wave .dot:nth-child(12) {
     top: 90px;
   }
   .hero_section .overlay_1 {
-    top: 100%;
-   }
+    top: 140%;
+  }
   .hero_section .banner_content {
     left: 27%;
   }
@@ -1645,8 +1645,8 @@ div#wave .dot:nth-child(12) {
   }
   .banner_content .button {
     padding-top: 145px;
-}
+  }
   .video_section.sp .container {
     margin-top: 6rem;
-}
+  }
 }
