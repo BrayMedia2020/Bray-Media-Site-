@@ -1643,10 +1643,4 @@ div#wave .dot:nth-child(12) {
   .banner_video_text .button a {
     transform: translateX(-27%) translateY(-10%) scale(0.8);
   }
-  .banner_content .button {
-    padding-top: 145px;
-  }
-  .video_section.sp .container {
-    margin-top: 6rem;
-  }
 }
