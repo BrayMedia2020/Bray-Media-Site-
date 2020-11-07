@@ -325,7 +325,6 @@ p {
   color: #4bd1a0;
   text-align: center;
   line-height: 1;
-  display: inline-block;
   transition: 0.5s;
   transform: translateX(150%);
   z-index: 1;
@@ -420,7 +419,6 @@ p {
   margin: auto;
   color: #ffffff;
 }
-
 
 /*Bannter Area Css*/
 .Batter_area {
@@ -883,7 +881,6 @@ p {
   text-align: center;
 }
 .lates_post_button {
-  /* text-align: center; */
   margin-top: 20px;
 }
 .linkdin_button a:hover {
@@ -1291,6 +1288,10 @@ a:hover {
 .banner_content .button {
   padding-top: 80px;
 }
+.banner_content .button a {
+  display: inline-block;
+}
+/* ================================== */
 /*Animations Css*/
 div#wave {
   position: relative;
@@ -1604,7 +1605,7 @@ div#wave .dot:nth-child(12) {
   .banner_content .button a {
     transform: translateX(-70%) scale(0.8);
   }
-  .userLearnDigitalyCon{
+  .userLearnDigitalyCon {
     padding: 0;
   }
 }
