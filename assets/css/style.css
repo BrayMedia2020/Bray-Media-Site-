@@ -1579,11 +1579,11 @@ div#wave .dot:nth-child(12) {
     top: -10rem;
   }
   .hero_section .bg-video {
-    top: 48%;
+    top: 90px;
   }
   .hero_section .overlay_1 {
-    top: 140%;
-  }
+    top: 100%;
+   }
   .hero_section .banner_content {
     left: 27%;
   }
@@ -1637,16 +1637,16 @@ div#wave .dot:nth-child(12) {
   .bg-video {
     padding: 2rem;
   }
-  /* .hero_section .bg-video {
-    top: 48%;
-  } */
-  /* .button a {
-    transform: translateX(1%) scale(0.8);
-  } */
   .banner_content .button a {
     transform: translateX(-27%) translateY(265%) scale(0.8);
   }
   .banner_video_text .button a {
     transform: translateX(-27%) translateY(-10%) scale(0.8);
   }
+  .banner_content .button {
+    padding-top: 145px;
+}
+  .video_section.sp .container {
+    margin-top: 6rem;
+}
 }
